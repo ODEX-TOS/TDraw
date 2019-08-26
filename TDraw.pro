@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui
+QT       += core gui printsupport
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -29,7 +29,8 @@ SOURCES += \
         draw.cpp
 
 HEADERS += \
-        draw.h
+        draw.h \
+        scribblearea.h
 
 FORMS += \
         draw.ui
