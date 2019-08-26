@@ -6,8 +6,8 @@
 
 namespace Ui {
 class Draw;
-class ScribbleArea;
 }
+class ScribbleArea;
 
 class Draw : public QMainWindow
 {
@@ -32,7 +32,7 @@ private:
     void createMenus();
     bool maybeSave();
     bool saveFile(const QByteArray &fileFormat);
-    Ui::ScribbleArea *scribbleArea;
+    ScribbleArea *scribbleArea;
     QMenu *saveAsMenu;
     QMenu *fileMenu;
     QMenu *optionsMenu;
