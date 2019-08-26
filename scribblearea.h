@@ -37,6 +37,7 @@ private:
     bool modified;
     bool isDrawing;
     QColor penColor;
+    QImage image;
     int penWidth;
     QPoint lastPoint;
 

@@ -6,6 +6,7 @@
 #include <QColorDialog>
 #include <QInputDialog>
 #include <QMessageBox>
+#include <QImageWriter>
 #include <QMainWindow>
 
 namespace Ui {
@@ -47,6 +48,7 @@ private:
     QAction *penWidthAct;
     QAction *printAct;
     QAction *clearScreenAct;
+    QAction *exitAct;
     QAction *aboutAct;
     QAction *aboutQTAct;
 

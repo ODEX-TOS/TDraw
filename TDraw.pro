@@ -26,7 +26,8 @@ CONFIG += c++11
 
 SOURCES += \
         main.cpp \
-        draw.cpp
+        draw.cpp \
+        scribblearea.cpp
 
 HEADERS += \
         draw.h \
