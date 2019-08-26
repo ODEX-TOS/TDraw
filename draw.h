@@ -2,6 +2,10 @@
 #define DRAW_H
 
 #include <QList>
+#include <QFileDialog>
+#include <QColorDialog>
+#include <QInputDialog>
+#include <QMessageBox>
 #include <QMainWindow>
 
 namespace Ui {
