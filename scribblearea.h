@@ -16,8 +16,13 @@ public:
     void setPenColor(const QColor &newColor);
     void setPenWidth(int newWidth);
 
+    // returns if the drawing area has been modified
     bool isModified() const {return modified;}
+
+    // returns the pen color
     QColor PenColor() const {return penColor;}
+
+    // returns the pen width
     int PenWidth() const { return penWidth;}
 
 public slots:

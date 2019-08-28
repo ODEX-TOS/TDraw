@@ -91,7 +91,7 @@ void ScribbleArea::mousePressEvent(QMouseEvent *event)
 // from the last position to the current
 void ScribbleArea::mouseMoveEvent(QMouseEvent *event)
 {
-    if ((event->buttons() & Qt::LeftButton) && isDrawing)
+    if ((event->buttons() == Qt::LeftButton) && isDrawing)
         drawLineTo(event->pos());
 }
 
