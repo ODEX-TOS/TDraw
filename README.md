@@ -63,11 +63,11 @@ Download from the release page if you want TDraw. This requires no dependencies.
 
 1. Clone the TDraw
 ```sh
-git clone https:://github.com/ODEX-TOS/TDraw.git
+git clone https://github.com/ODEX-TOS/TDraw.git
 ```
 2. Install packages
 ```sh
-pacman -Syu QT
+pacman -Syu qt5-base
 ```
 
 3. Compile the QT project
